@@ -15,3 +15,7 @@ api_key.txt
 .DS_Store
 .ruff_cache/
 *.lnk
+
+# 에이전트 지시 파일 — 로컬 전용
+CLAUDE.md
+AGENTS.md
