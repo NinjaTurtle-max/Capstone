@@ -1,0 +1,140 @@
+{
+  "train": {
+    "n": 2484939,
+    "rmse_ppb": 5.532887424167835,
+    "mae_ppb": 3.8041033262902793,
+    "r2": 0.7667306720895957,
+    "bias_ppb": -3.2379008335584614e-06
+  },
+  "validation": {
+    "n": 638508,
+    "rmse_ppb": 7.003025399748861,
+    "mae_ppb": 4.563435940638077,
+    "r2": 0.5998064969676286,
+    "bias_ppb": -1.4395298605033129
+  },
+  "test": {
+    "n": 652496,
+    "rmse_ppb": 9.453818367101594,
+    "mae_ppb": 6.577107032947866,
+    "r2": 0.5716142663674011,
+    "bias_ppb": -3.1364489461527953
+  },
+  "test_with_coordinates": {
+    "n": 624550,
+    "rmse_ppb": 9.178262373263488,
+    "mae_ppb": 6.372354194846665,
+    "r2": 0.5966518021617184,
+    "bias_ppb": -3.1629095041773088
+  },
+  "test_without_coordinates": {
+    "n": 27946,
+    "rmse_ppb": 14.286907313130824,
+    "mae_ppb": 11.153017182382689,
+    "r2": -0.006917378892534742,
+    "bias_ppb": -2.545096283367072
+  },
+  "test_satellite_same_hour": {
+    "n": 26789,
+    "rmse_ppb": 7.076544384506524,
+    "mae_ppb": 4.628672231890746,
+    "r2": 0.599546975716696,
+    "bias_ppb": -2.192405700278858
+  },
+  "test_without_satellite_same_hour": {
+    "n": 625707,
+    "rmse_ppb": 9.542387063503156,
+    "mae_ppb": 6.660527259804076,
+    "r2": 0.568541298435969,
+    "bias_ppb": -3.1768671842637914
+  },
+  "test_recent_satellite_available": {
+    "n": 549014,
+    "rmse_ppb": 9.282986230015174,
+    "mae_ppb": 6.476169949661745,
+    "r2": 0.5982312786204874,
+    "bias_ppb": -3.3870493335589393
+  },
+  "test_no_recent_satellite": {
+    "n": 103482,
+    "rmse_ppb": 10.312927864604946,
+    "mae_ppb": 7.112619217127197,
+    "r2": 0.36016986118389804,
+    "bias_ppb": -1.8069122045803798
+  },
+  "test_seen_stations": {
+    "n": 632008,
+    "rmse_ppb": 9.421625880018198,
+    "mae_ppb": 6.542023046559577,
+    "r2": 0.5748269723269048,
+    "bias_ppb": -3.18785671907234
+  },
+  "test_unseen_stations": {
+    "n": 20488,
+    "rmse_ppb": 10.398039186081615,
+    "mae_ppb": 7.659367871940888,
+    "r2": 0.4686310529376242,
+    "bias_ppb": -1.5506365805077416
+  },
+  "comparison_same_test_rows": {
+    "fusion": {
+      "n": 652496,
+      "rmse_ppb": 9.453818367101594,
+      "mae_ppb": 6.577107032947866,
+      "r2": 0.5716142663674011,
+      "bias_ppb": -3.1364489461527953
+    },
+    "time_coordinates": {
+      "n": 652496,
+      "rmse_ppb": 12.16178425826182,
+      "mae_ppb": 9.344477399041835,
+      "r2": 0.29105085811973797,
+      "bias_ppb": -0.2490821694996025
+    },
+    "time_only": {
+      "n": 652496,
+      "rmse_ppb": 14.0507617036036,
+      "mae_ppb": 11.292516705999097,
+      "r2": 0.05371876554749788,
+      "bias_ppb": 1.1288609425408946
+    },
+    "training_mean": {
+      "n": 652496,
+      "rmse_ppb": 15.95706932883607,
+      "mae_ppb": 11.313705654061659,
+      "r2": -0.22046900598853836,
+      "bias_ppb": -6.782089653526838
+    }
+  },
+  "best_iteration": 1454,
+  "lightgbm_version": "4.7.0",
+  "python": "C:\\Users\\wonhe\\AppData\\Local\\Programs\\Python\\Python315\\python.exe",
+  "parameters": {
+    "objective": "regression",
+    "metric": "rmse",
+    "learning_rate": 0.03,
+    "num_leaves": 31,
+    "max_depth": 8,
+    "min_data_in_leaf": 100,
+    "feature_fraction": 1.0,
+    "lambda_l2": 1.0,
+    "seed": 42,
+    "num_threads": 4,
+    "verbosity": -1,
+    "deterministic": true,
+    "force_col_wise": true
+  },
+  "feature_count": 38,
+  "source_split_gain": {
+    "ASOS": 361038502.5625,
+    "ERA5": 901130321.5707397,
+    "TROPOMI": 1576573641.557495
+  },
+  "notes": [
+    "All ASOS/ERA5/TROPOMI sources included as inputs with missingness retained",
+    "Current-coordinate proxies used as authorized, no historical relocation validation",
+    "Satellite recent features use current/past hour-bin only, max24h; no future backfill",
+    "Same original labels/rows/temporal splits; no target imputation",
+    "Temporal evaluation only; unseen station subgroup is incidental, not designed spatial holdout"
+  ]
+}

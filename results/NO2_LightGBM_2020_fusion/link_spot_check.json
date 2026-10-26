@@ -1,0 +1,7 @@
+{
+  "station_code": 111121,
+  "UTC": "2020-01-01 03:00",
+  "ERA5_independent_scipy_interpolation_match": true,
+  "ASOS_nearest_station": 108,
+  "ASOS_source_value_match": true
+}

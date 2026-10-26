@@ -1,0 +1,30 @@
+feature,nonmissing_rows,nonmissing_fraction,unit
+era5_z850_native,3748056,0.9564134114307558,source-native (monthly NetCDF has no variable unit attribute)
+era5_thk_native,3748056,0.9564134114307558,source-native (monthly NetCDF has no variable unit attribute)
+era5_u_pbl_native,3748056,0.9564134114307558,source-native (monthly NetCDF has no variable unit attribute)
+era5_v_pbl_native,3748056,0.9564134114307558,source-native (monthly NetCDF has no variable unit attribute)
+era5_blh_native,3748056,0.9564134114307558,source-native (monthly NetCDF has no variable unit attribute)
+era5_sp_native,3748056,0.9564134114307558,source-native (monthly NetCDF has no variable unit attribute)
+era5_t2m_native,3748056,0.9564134114307558,source-native (monthly NetCDF has no variable unit attribute)
+era5_pbl_wind_speed_native,3748056,0.9564134114307558,same native velocity units as u_pbl/v_pbl; not 10m wind
+asos_wind_speed_ms,3744769,0.9555746483804244,"see ASOS_2020_processed metadata; reported RN winter=3h, summer=1h"
+asos_u_obs_ms,3385128,0.8638029470770371,"see ASOS_2020_processed metadata; reported RN winter=3h, summer=1h"
+asos_v_obs_ms,3385128,0.8638029470770371,"see ASOS_2020_processed metadata; reported RN winter=3h, summer=1h"
+asos_temperature_c,3745876,0.955857128056943,"see ASOS_2020_processed metadata; reported RN winter=3h, summer=1h"
+asos_dewpoint_c,3745494,0.955759650878596,"see ASOS_2020_processed metadata; reported RN winter=3h, summer=1h"
+asos_relative_humidity_pct,3745489,0.9557583749992983,"see ASOS_2020_processed metadata; reported RN winter=3h, summer=1h"
+asos_station_pressure_hpa,3745104,0.9556601322933727,"see ASOS_2020_processed metadata; reported RN winter=3h, summer=1h"
+asos_sea_level_pressure_hpa,3745112,0.955662173700249,"see ASOS_2020_processed metadata; reported RN winter=3h, summer=1h"
+asos_precipitation_reported_mm,402036,0.10258988186888758,"see ASOS_2020_processed metadata; reported RN winter=3h, summer=1h"
+asos_precipitation_interval_hours,3748056,0.9564134114307558,"see ASOS_2020_processed metadata; reported RN winter=3h, summer=1h"
+asos_solar_radiation_mj_m2,1386484,0.3537972464483348,"see ASOS_2020_processed metadata; reported RN winter=3h, summer=1h"
+asos_row_present,3748056,0.9564134114307558,"see ASOS_2020_processed metadata; reported RN winter=3h, summer=1h"
+asos_distance_km,3748056,0.9564134114307558,km
+satellite_no2_same_hour_mol_m2,146133,0.03728961388319989,"mol m-2; native column, not ground ppb"
+satellite_qa_same_hour,146133,0.03728961388319989,1
+satellite_weight_support,3748056,0.9564134114307558,"sum of original pixel-node weights, not independent observation count"
+satellite_low_quality_nearby,3748056,0.9564134114307558,0/1 low-quality source mask in station interpolation nodes
+satellite_same_hour_available,3748056,0.9564134114307558,0/1
+satellite_recent_24h_no2_mol_m2,2918977,0.7448524649732856,"mol m-2; current or previous hour-bin only, max age 24h"
+satellite_recent_age_hours,2918977,0.7448524649732856,hours
+satellite_recent_qa,2918977,0.7448524649732856,1

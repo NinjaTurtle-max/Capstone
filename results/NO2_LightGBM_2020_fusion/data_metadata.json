@@ -1,0 +1,430 @@
+{
+  "target": "AirKorea observed ground NO2 ppb",
+  "network": "도시대기",
+  "features": [
+    "hour_kst",
+    "weekday_kst",
+    "report_month",
+    "hour_sin",
+    "hour_cos",
+    "annual_sin",
+    "annual_cos",
+    "latitude",
+    "longitude",
+    "era5_z850_native",
+    "era5_thk_native",
+    "era5_u_pbl_native",
+    "era5_v_pbl_native",
+    "era5_blh_native",
+    "era5_sp_native",
+    "era5_t2m_native",
+    "era5_pbl_wind_speed_native",
+    "asos_wind_speed_ms",
+    "asos_u_obs_ms",
+    "asos_v_obs_ms",
+    "asos_temperature_c",
+    "asos_dewpoint_c",
+    "asos_relative_humidity_pct",
+    "asos_station_pressure_hpa",
+    "asos_sea_level_pressure_hpa",
+    "asos_precipitation_reported_mm",
+    "asos_precipitation_interval_hours",
+    "asos_solar_radiation_mj_m2",
+    "asos_row_present",
+    "asos_distance_km",
+    "satellite_no2_same_hour_mol_m2",
+    "satellite_qa_same_hour",
+    "satellite_weight_support",
+    "satellite_low_quality_nearby",
+    "satellite_same_hour_available",
+    "satellite_recent_24h_no2_mol_m2",
+    "satellite_recent_age_hours",
+    "satellite_recent_qa"
+  ],
+  "split": {
+    "train": "2020 reporting months 1-8",
+    "validation": "9-10",
+    "test": "11-12"
+  },
+  "time_handling": "Original AirKorea label, hour24 normalized next day; KST-9 UTC; no extra averaging-interval shift. No external time matching in this baseline.",
+  "master_rows": 3918866,
+  "missing_targets": 142923,
+  "stations": 474,
+  "sources": [
+    {
+      "file": "C:\\Users\\wonhe\\OneDrive\\Desktop\\딥러닝\\새 폴더\\2020\\2020\\2020년 1월.xlsx",
+      "sha256": "a7fe7063a4555cfb62cfeb79177237048c633f2c4691b242981e74af97955370",
+      "urban_rows": 306912
+    },
+    {
+      "file": "C:\\Users\\wonhe\\OneDrive\\Desktop\\딥러닝\\새 폴더\\2020\\2020\\2020년 2월.xlsx",
+      "sha256": "f56aefff796f659233b97cf171aaf45a2805a1c62d258fdefdf2d0aa155f280f",
+      "urban_rows": 294168
+    },
+    {
+      "file": "C:\\Users\\wonhe\\OneDrive\\Desktop\\딥러닝\\새 폴더\\2020\\2020\\2020년 3월.xlsx",
+      "sha256": "f21ac39428f05d9823b3f84a5fc4c99ffc1af5b259f1d1d961955656c2d0b9f0",
+      "urban_rows": 323304
+    },
+    {
+      "file": "C:\\Users\\wonhe\\OneDrive\\Desktop\\딥러닝\\새 폴더\\2020\\2020\\2020년 4월.xlsx",
+      "sha256": "9ece5fa237c9649aeda68832ca44a21132608df5a676e76935dfa3c3857926c3",
+      "urban_rows": 318240
+    },
+    {
+      "file": "C:\\Users\\wonhe\\OneDrive\\Desktop\\딥러닝\\새 폴더\\2020\\2020\\2020년 5월.xlsx",
+      "sha256": "ceddc95607dbefb470240f1002e018ef9cd2028c23b4c5c103e44b109f6dcebc",
+      "urban_rows": 331080
+    },
+    {
+      "file": "C:\\Users\\wonhe\\OneDrive\\Desktop\\딥러닝\\새 폴더\\2020\\2020\\2020년 6월.xlsx",
+      "sha256": "25614b2975b1f49e8c5959d8167ca1520ff6d702e5cff109b9799c33f4009cab",
+      "urban_rows": 321120
+    },
+    {
+      "file": "C:\\Users\\wonhe\\OneDrive\\Desktop\\딥러닝\\새 폴더\\2020\\2020\\2020년 7월.xlsx",
+      "sha256": "01bfda0f830377577843145087320fac46d13168503463a03d10df2b6057e71b",
+      "urban_rows": 334800
+    },
+    {
+      "file": "C:\\Users\\wonhe\\OneDrive\\Desktop\\딥러닝\\새 폴더\\2020\\2020\\2020년 8월.xlsx",
+      "sha256": "c180a78c1c2d468c0f77ff71e820477d683c7b2478caa1935ce6c3ab91ca42eb",
+      "urban_rows": 336768
+    },
+    {
+      "file": "C:\\Users\\wonhe\\OneDrive\\Desktop\\딥러닝\\새 폴더\\2020\\2020\\2020년 9월.xlsx",
+      "sha256": "efe244d117193338da44f8a8f7cd260db9f0ee6fc825bbea906a39177d1c89ee",
+      "urban_rows": 329040
+    },
+    {
+      "file": "C:\\Users\\wonhe\\OneDrive\\Desktop\\딥러닝\\새 폴더\\2020\\2020\\2020년 10월.xlsx",
+      "sha256": "13fe435862d29b26c37fc049671640ff7adb2616342541859c608cb0674ba2e4",
+      "urban_rows": 342696
+    },
+    {
+      "file": "C:\\Users\\wonhe\\OneDrive\\Desktop\\딥러닝\\새 폴더\\2020\\2020\\2020년 11월.xlsx",
+      "sha256": "cf24bb9f2ed8aefe053fd9e68e0371c6ae3ee5f1ad6893a6f3bfbd949e4a3ac1",
+      "urban_rows": 332617
+    },
+    {
+      "file": "C:\\Users\\wonhe\\OneDrive\\Desktop\\딥러닝\\새 폴더\\2020\\2020\\2020년 12월.xlsx",
+      "sha256": "fe45af1af741aeac3b1a0a97eb4a991eb459489b991e3fe858f7ec13b8e54c55",
+      "urban_rows": 348121
+    }
+  ],
+  "coordinate_source": "C:\\Users\\wonhe\\OneDrive\\문서\\카카오톡 받은 파일\\airkorea_stations.csv",
+  "coordinate_sha256": "e9e773e974a7cb2eb02a97c574d185426b7a454488e8df1dbe4589f25100a760",
+  "coordinate_policy": "Provided current coordinates used without historical validation, as requested. Listed installation year does not exclude a station.",
+  "stations_with_coordinates": 452,
+  "stations_without_coordinates": 22,
+  "rows_without_coordinates": 167666,
+  "coordinate_missing_handling": "Keep rows; latitude/longitude NaN handled natively by LightGBM",
+  "scope": "Time + current coordinates + ERA5 + ASOS + TROPOMI",
+  "external_sources": [
+    {
+      "file": "C:\\Users\\wonhe\\OneDrive\\Desktop\\딥러닝\\no2_korean_peninsula_2020.zip",
+      "sha256": "46be2f93c6954a36b64635410e045cc02ce57043a3c3ae7dbd94449c9f3b3e25"
+    },
+    {
+      "file": "C:\\Users\\wonhe\\OneDrive\\Desktop\\딥러닝\\era5_korean_peninsula_2020.zip",
+      "sha256": "b02b70ee971797b0d1d8d62d1d79237d0694d7c7dca1b2fac916885ba8760d1a"
+    }
+  ],
+  "feature_units": {
+    "era5_z850_native": "source-native (monthly NetCDF has no variable unit attribute)",
+    "era5_thk_native": "source-native (monthly NetCDF has no variable unit attribute)",
+    "era5_u_pbl_native": "source-native (monthly NetCDF has no variable unit attribute)",
+    "era5_v_pbl_native": "source-native (monthly NetCDF has no variable unit attribute)",
+    "era5_blh_native": "source-native (monthly NetCDF has no variable unit attribute)",
+    "era5_sp_native": "source-native (monthly NetCDF has no variable unit attribute)",
+    "era5_t2m_native": "source-native (monthly NetCDF has no variable unit attribute)",
+    "era5_pbl_wind_speed_native": "same native velocity units as u_pbl/v_pbl; not 10m wind",
+    "asos_wind_speed_ms": "see ASOS_2020_processed metadata; reported RN winter=3h, summer=1h",
+    "asos_u_obs_ms": "see ASOS_2020_processed metadata; reported RN winter=3h, summer=1h",
+    "asos_v_obs_ms": "see ASOS_2020_processed metadata; reported RN winter=3h, summer=1h",
+    "asos_temperature_c": "see ASOS_2020_processed metadata; reported RN winter=3h, summer=1h",
+    "asos_dewpoint_c": "see ASOS_2020_processed metadata; reported RN winter=3h, summer=1h",
+    "asos_relative_humidity_pct": "see ASOS_2020_processed metadata; reported RN winter=3h, summer=1h",
+    "asos_station_pressure_hpa": "see ASOS_2020_processed metadata; reported RN winter=3h, summer=1h",
+    "asos_sea_level_pressure_hpa": "see ASOS_2020_processed metadata; reported RN winter=3h, summer=1h",
+    "asos_precipitation_reported_mm": "see ASOS_2020_processed metadata; reported RN winter=3h, summer=1h",
+    "asos_precipitation_interval_hours": "see ASOS_2020_processed metadata; reported RN winter=3h, summer=1h",
+    "asos_solar_radiation_mj_m2": "see ASOS_2020_processed metadata; reported RN winter=3h, summer=1h",
+    "asos_row_present": "see ASOS_2020_processed metadata; reported RN winter=3h, summer=1h",
+    "asos_distance_km": "km",
+    "satellite_no2_same_hour_mol_m2": "mol m-2; native column, not ground ppb",
+    "satellite_qa_same_hour": "1",
+    "satellite_weight_support": "sum of original pixel-node weights, not independent observation count",
+    "satellite_low_quality_nearby": "0/1 low-quality source mask in station interpolation nodes",
+    "satellite_same_hour_available": "0/1",
+    "satellite_recent_24h_no2_mol_m2": "mol m-2; current or previous hour-bin only, max age 24h",
+    "satellite_recent_age_hours": "hours",
+    "satellite_recent_qa": "1"
+  },
+  "feature_coverage": {
+    "era5_z850_native": {
+      "nonmissing_rows": 3748056,
+      "nonmissing_fraction": 0.9564134114307558
+    },
+    "era5_thk_native": {
+      "nonmissing_rows": 3748056,
+      "nonmissing_fraction": 0.9564134114307558
+    },
+    "era5_u_pbl_native": {
+      "nonmissing_rows": 3748056,
+      "nonmissing_fraction": 0.9564134114307558
+    },
+    "era5_v_pbl_native": {
+      "nonmissing_rows": 3748056,
+      "nonmissing_fraction": 0.9564134114307558
+    },
+    "era5_blh_native": {
+      "nonmissing_rows": 3748056,
+      "nonmissing_fraction": 0.9564134114307558
+    },
+    "era5_sp_native": {
+      "nonmissing_rows": 3748056,
+      "nonmissing_fraction": 0.9564134114307558
+    },
+    "era5_t2m_native": {
+      "nonmissing_rows": 3748056,
+      "nonmissing_fraction": 0.9564134114307558
+    },
+    "era5_pbl_wind_speed_native": {
+      "nonmissing_rows": 3748056,
+      "nonmissing_fraction": 0.9564134114307558
+    },
+    "asos_wind_speed_ms": {
+      "nonmissing_rows": 3744769,
+      "nonmissing_fraction": 0.9555746483804244
+    },
+    "asos_u_obs_ms": {
+      "nonmissing_rows": 3385128,
+      "nonmissing_fraction": 0.8638029470770371
+    },
+    "asos_v_obs_ms": {
+      "nonmissing_rows": 3385128,
+      "nonmissing_fraction": 0.8638029470770371
+    },
+    "asos_temperature_c": {
+      "nonmissing_rows": 3745876,
+      "nonmissing_fraction": 0.955857128056943
+    },
+    "asos_dewpoint_c": {
+      "nonmissing_rows": 3745494,
+      "nonmissing_fraction": 0.955759650878596
+    },
+    "asos_relative_humidity_pct": {
+      "nonmissing_rows": 3745489,
+      "nonmissing_fraction": 0.9557583749992983
+    },
+    "asos_station_pressure_hpa": {
+      "nonmissing_rows": 3745104,
+      "nonmissing_fraction": 0.9556601322933727
+    },
+    "asos_sea_level_pressure_hpa": {
+      "nonmissing_rows": 3745112,
+      "nonmissing_fraction": 0.955662173700249
+    },
+    "asos_precipitation_reported_mm": {
+      "nonmissing_rows": 402036,
+      "nonmissing_fraction": 0.10258988186888758
+    },
+    "asos_precipitation_interval_hours": {
+      "nonmissing_rows": 3748056,
+      "nonmissing_fraction": 0.9564134114307558
+    },
+    "asos_solar_radiation_mj_m2": {
+      "nonmissing_rows": 1386484,
+      "nonmissing_fraction": 0.3537972464483348
+    },
+    "asos_row_present": {
+      "nonmissing_rows": 3748056,
+      "nonmissing_fraction": 0.9564134114307558
+    },
+    "asos_distance_km": {
+      "nonmissing_rows": 3748056,
+      "nonmissing_fraction": 0.9564134114307558
+    },
+    "satellite_no2_same_hour_mol_m2": {
+      "nonmissing_rows": 146133,
+      "nonmissing_fraction": 0.03728961388319989
+    },
+    "satellite_qa_same_hour": {
+      "nonmissing_rows": 146133,
+      "nonmissing_fraction": 0.03728961388319989
+    },
+    "satellite_weight_support": {
+      "nonmissing_rows": 3748056,
+      "nonmissing_fraction": 0.9564134114307558
+    },
+    "satellite_low_quality_nearby": {
+      "nonmissing_rows": 3748056,
+      "nonmissing_fraction": 0.9564134114307558
+    },
+    "satellite_same_hour_available": {
+      "nonmissing_rows": 3748056,
+      "nonmissing_fraction": 0.9564134114307558
+    },
+    "satellite_recent_24h_no2_mol_m2": {
+      "nonmissing_rows": 2918977,
+      "nonmissing_fraction": 0.7448524649732856
+    },
+    "satellite_recent_age_hours": {
+      "nonmissing_rows": 2918977,
+      "nonmissing_fraction": 0.7448524649732856
+    },
+    "satellite_recent_qa": {
+      "nonmissing_rows": 2918977,
+      "nonmissing_fraction": 0.7448524649732856
+    }
+  },
+  "satellite_months": [
+    {
+      "month": 1,
+      "high_quality_observations": 342176,
+      "low_quality_mask_rows": 467618,
+      "negative_high_QA_columns_retained": 33839
+    },
+    {
+      "month": 2,
+      "high_quality_observations": 372258,
+      "low_quality_mask_rows": 403630,
+      "negative_high_QA_columns_retained": 17745
+    },
+    {
+      "month": 3,
+      "high_quality_observations": 538405,
+      "low_quality_mask_rows": 335380,
+      "negative_high_QA_columns_retained": 50143
+    },
+    {
+      "month": 4,
+      "high_quality_observations": 546617,
+      "low_quality_mask_rows": 310653,
+      "negative_high_QA_columns_retained": 24217
+    },
+    {
+      "month": 5,
+      "high_quality_observations": 395128,
+      "low_quality_mask_rows": 495802,
+      "negative_high_QA_columns_retained": 14800
+    },
+    {
+      "month": 6,
+      "high_quality_observations": 420149,
+      "low_quality_mask_rows": 446430,
+      "negative_high_QA_columns_retained": 5364
+    },
+    {
+      "month": 7,
+      "high_quality_observations": 252716,
+      "low_quality_mask_rows": 616231,
+      "negative_high_QA_columns_retained": 7238
+    },
+    {
+      "month": 8,
+      "high_quality_observations": 321503,
+      "low_quality_mask_rows": 559386,
+      "negative_high_QA_columns_retained": 3433
+    },
+    {
+      "month": 9,
+      "high_quality_observations": 356449,
+      "low_quality_mask_rows": 460504,
+      "negative_high_QA_columns_retained": 7837
+    },
+    {
+      "month": 10,
+      "high_quality_observations": 602874,
+      "low_quality_mask_rows": 266960,
+      "negative_high_QA_columns_retained": 23766
+    },
+    {
+      "month": 11,
+      "high_quality_observations": 509404,
+      "low_quality_mask_rows": 302832,
+      "negative_high_QA_columns_retained": 43493
+    },
+    {
+      "month": 12,
+      "high_quality_observations": 503224,
+      "low_quality_mask_rows": 368202,
+      "negative_high_QA_columns_retained": 44314
+    }
+  ],
+  "UTC_outside_2020_rows": 3296,
+  "ASOS_distance_summary_km": {
+    "min": 0.03866797989235357,
+    "median": 10.631734069169873,
+    "max": 33.73109094311622
+  },
+  "matching": {
+    "ERA5": "bilinear per group sorted coordinates; original UTC time decoded per month; native units retained",
+    "ASOS": "nearest reference-coordinate station among 2020 data IDs with coordinates; no distance cutoff; exact UTC label; missing stays NaN",
+    "TROPOMI": "high-QA original weights scatter to 0.25deg nodes, weighted station interpolation renormalized over available nodes; low-QA mask only; integer hour-bin; past-only carry <=24h",
+    "AirKorea": "original KST label normalized hour24 then minus9h; averaging interval not shifted or independently verified",
+    "boundaries": "Before UTC2020 external features stay NaN, source target rows retained"
+  },
+  "excluded_ERA5_variables": {
+    "z850_anom": "upstream anomaly reference/calibration definition unavailable; z850 and thk retained instead"
+  },
+  "limitations": [
+    "Current AirKorea coordinates used without historical checks by user request",
+    "ASOS reference coordinates/heights also not historically verified",
+    "TROPOMI original pixel coordinates and exact overpass time unavailable; node/hour proxy used",
+    "ERA5 source variable units absent in processed NetCDF; native values preserved, u_pbl/v_pbl not called 10m wind",
+    "Station/time splits unchanged; designed spatial holdout not run",
+    "Source ERA5 z850_anom excluded because reference definition unavailable"
+  ],
+  "ASOS_processed_sources": [
+    {
+      "file": "outputs\\ASOS_2020_processed\\parquet\\asos_202001.parquet",
+      "sha256": "954b1ae52fa28422ef19c3068cb0c34d543d85e818f75743822e8a30a5e25671"
+    },
+    {
+      "file": "outputs\\ASOS_2020_processed\\parquet\\asos_202002.parquet",
+      "sha256": "a4060bbd4b17eb11970a28dcc43d1dfdec2928921a316fc2238c4cf44599e455"
+    },
+    {
+      "file": "outputs\\ASOS_2020_processed\\parquet\\asos_202003.parquet",
+      "sha256": "a47f3d4c1d2ae3f442b6bb78bfe66931ee043de131bf3aa64fbccedbe37941ba"
+    },
+    {
+      "file": "outputs\\ASOS_2020_processed\\parquet\\asos_202004.parquet",
+      "sha256": "4c40358288de06919b62f099e065296db107e2793940f16a8306f0e46d2e6aa5"
+    },
+    {
+      "file": "outputs\\ASOS_2020_processed\\parquet\\asos_202005.parquet",
+      "sha256": "b089a806c3c49785b1ae94febeb1e0d62bd075461af5e0f63cad20edda02dffc"
+    },
+    {
+      "file": "outputs\\ASOS_2020_processed\\parquet\\asos_202006.parquet",
+      "sha256": "09cef4f33091edc6d5a807c51c24677d67269de2373b10734a9f66a753c43911"
+    },
+    {
+      "file": "outputs\\ASOS_2020_processed\\parquet\\asos_202007.parquet",
+      "sha256": "bcfd185913eb9a434999cc60de0f218f4f26987c06f08cfb677718c7b319b113"
+    },
+    {
+      "file": "outputs\\ASOS_2020_processed\\parquet\\asos_202008.parquet",
+      "sha256": "94a92aa38697d775fc6eb6b0f77235aff1f13cbaa8a45b0f7b6c634c14b2d99b"
+    },
+    {
+      "file": "outputs\\ASOS_2020_processed\\parquet\\asos_202009.parquet",
+      "sha256": "93268ad79cd50fcc99f78078f3caed034b2ab6c220fe09929337306586ec60f3"
+    },
+    {
+      "file": "outputs\\ASOS_2020_processed\\parquet\\asos_202010.parquet",
+      "sha256": "778d4d8a5b258b75bb351a94c3f8b818fb030049820826a5c7e97ed9cc73a356"
+    },
+    {
+      "file": "outputs\\ASOS_2020_processed\\parquet\\asos_202011.parquet",
+      "sha256": "b8327cf56bcc2f88ab3fb1a7078bcd616aad81f2a3006b9656b5a5f6d23be2a6"
+    },
+    {
+      "file": "outputs\\ASOS_2020_processed\\parquet\\asos_202012.parquet",
+      "sha256": "be86406d91709ccefc2a74f0b48011dc23be4b1191b0ffabbcda1e3840c2a762"
+    }
+  ]
+}

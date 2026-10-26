@@ -1,0 +1,20 @@
+{
+  "saved_model_prediction_match_sample_rows": 10039,
+  "same_evaluation_rows_targets_as_prior_models": true,
+  "no_target_imputation": true,
+  "requested_sources_used_in_model_splits": {
+    "ASOS": 361038502.5625,
+    "ERA5": 901130321.5707397,
+    "TROPOMI": 1576573641.557495
+  },
+  "split_rows": {
+    "train": 2484939,
+    "validation": 638508,
+    "test": 652496
+  },
+  "independent_test_RMSE": "passed",
+  "unchanged_targets_rows_splits_and_previous_inputs": true,
+  "finite_or_nan_features": true,
+  "recent_satellite_age_bounds_0_to24": true,
+  "chronological_split_boundaries": true
+}

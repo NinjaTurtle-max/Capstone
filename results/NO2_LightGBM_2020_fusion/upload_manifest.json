@@ -1,0 +1,235 @@
+{
+  "files": [
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/asos_reference_metadata.csv",
+      "bytes": 28380,
+      "sha256": "a5fdaabd0adee7f6d46b276029e65d853c4182231d19afd8b7b5edfc84909cff"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/asos_station_linkage.csv",
+      "bytes": 23240,
+      "sha256": "5569efe00c7fafc528f0103dde47cfd3b95613593c1315ebd97ca41a4c4ba8d3"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/data_metadata.json",
+      "bytes": 17358,
+      "sha256": "7bd8d39852e20fbef69568f5e4295278cd827824aca34bdaed838a55524956ff"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/feature_coverage.csv",
+      "bytes": 3073,
+      "sha256": "62f98e13e9ccc0445cc9b61121c0207a93b0d010687bbabc8680399e1c4f0335"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/feature_importance.csv",
+      "bytes": 1434,
+      "sha256": "1939ae388313294620dd7ba5129d3e60ef9368afe4ace09b9743fb9ba167ac45"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/feature_importance_top20.png",
+      "bytes": 102851,
+      "sha256": "e085c2e980116c6e0fecb601c884f6d27cc3e1e06f234467768d959484affa5d"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/learning_curve.json",
+      "bytes": 28534,
+      "sha256": "f94e162acdb5b561b31f70c5f3ab80e5a7faf01bf8fdee97fe79648ff7f0c7f1"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/lightgbm_fusion_model.txt",
+      "bytes": 4509620,
+      "sha256": "51c5464e29e13aa9258860f8a745d4b74b51cac4a67d20128f7906495e1fa0b4"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/link_spot_check.json",
+      "bytes": 183,
+      "sha256": "3e3e7c4a0650bcf4a8b4c1bbf9101873a075f54394681ddc33ba544dba60df66"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/metrics.json",
+      "bytes": 4056,
+      "sha256": "56a2894b2d1ffcf2e40e23954175f186965c26594c530c69c01201145831f98b"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/NO2_fusion_report.pdf",
+      "bytes": 547113,
+      "sha256": "07ab40d9de5dc71d9f148cd9d44a05932b143afed03ad2f33b0f107f24927543"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/prepare_fusion_model.py",
+      "bytes": 13005,
+      "sha256": "b512603dd5ecefbbec196bb27f2f7c5265dc42192eb4fe7c6b1f7c1a231f84d1"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/provided_station_coordinates.csv",
+      "bytes": 108790,
+      "sha256": "2846f808dfb319fa1fcdffce1d9f267421b4e2350f685312812dc6c9e6be2fd7"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/README.md",
+      "bytes": 4028,
+      "sha256": "989655987bfc179723d134aed829db167ef5ad7d9015183c8a570f0474eae95e"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/report.html",
+      "bytes": 2517,
+      "sha256": "4b3b78906c5a78824b2fcda6c100474e477d7aca544a3d13bb00bc46096593eb"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/report_fusion_model.py",
+      "bytes": 11911,
+      "sha256": "0a7bba0fe06224a43b85915b0a9603daa7ab1f09e13af69fb5264b544d728cfd"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/SHAP/calculate_fusion_shap.py",
+      "bytes": 2668,
+      "sha256": "b9ae4bddbab10c8bd18e244324814b5ac79dbe2bca94db53fb40e60c409bda92"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/SHAP/global_shap_importance.csv",
+      "bytes": 2531,
+      "sha256": "2e4fe6e6763e14501aa2dde7ebeed6c795daf56538722101fd29b94b20dbfe6e"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/SHAP/group_shap_importance.csv",
+      "bytes": 294,
+      "sha256": "89bdd2a8e6fbbc17b6b33ffe06de3ad5285e7680d624df9942be92961f8b5ebb"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/SHAP/local_examples.csv",
+      "bytes": 419,
+      "sha256": "5c4ebd30e6ab37c2097d3d515911f6fba5c8640c6de2396e45779ed981e4997f"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/SHAP/local_highest_observed.png",
+      "bytes": 101919,
+      "sha256": "d9872f69101c3bfa4e3474450320286d36e8072791b19ce47c199a27cef66d7d"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/SHAP/local_largest_absolute_error.png",
+      "bytes": 102591,
+      "sha256": "e42c799b5dc0fcbc3d69e9afd44ee83cf4ba1554e28538b4ed0200f6f7c25bc8"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/SHAP/local_median_observed.png",
+      "bytes": 99332,
+      "sha256": "1f8cbbf812b852f5ce0735126a0e9cd027542e46321ceb31dde6c228c49329fc"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/SHAP/metadata.json",
+      "bytes": 2180,
+      "sha256": "d0f4a457b0cc4f30d509fb0e1ae74dd9c9fadb789bf4be93082c84f334187823"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/SHAP/README.md",
+      "bytes": 693,
+      "sha256": "225735f200e53f61038a064cf44bc09947d327b0dcce495302f70b967f8eb505"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/SHAP/report.html",
+      "bytes": 3442,
+      "sha256": "8e7e9f778bc761886795ecb8cfc26fc2792827f153edc27de15e9440a3a01f62"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/SHAP/report_fusion_shap.py",
+      "bytes": 9619,
+      "sha256": "a60ebc53df0894bad8f45168c5eafb2155935e9b9ee973776b0b1f74f92885c0"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/SHAP/sample_feature_values.csv.gz",
+      "bytes": 412652,
+      "sha256": "a9a8a6a2d3eee203077d12b8b27fe997557a6122ad19272698023b6c4c4d9942"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/SHAP/sample_shap_values.csv.gz",
+      "bytes": 1735811,
+      "sha256": "1b506f68afbbfa6459c61e2421289aedb9f24fceb35585630224819bf6ef6cb7"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/SHAP/shap_dependence_top6.png",
+      "bytes": 754102,
+      "sha256": "37bb3ae80f5ada8a5518f6d5945c7fd3b11250ba5ee8300b0ccccd564bda83e7"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/SHAP/shap_group_importance.png",
+      "bytes": 40336,
+      "sha256": "e26d29725179b52aaf43dd6e9feed9ae0ea43aa1d79fc237693f173141129d27"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/SHAP/shap_importance.png",
+      "bytes": 117179,
+      "sha256": "aa58e3d7bd1cb7582d659504413b3afff7c9395a1bd955a640e930d84fe67d41"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/SHAP/shap_summary.png",
+      "bytes": 463991,
+      "sha256": "f789707edd0bf3588f036afba35ec0e7fda6f6f308590236ef9d8b1d207d0971"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/SHAP/shap_values.npz",
+      "bytes": 1736845,
+      "sha256": "705cbb40678101af7de45fa158c7c1f6caf5675dff11cd100f14e6351a755c36"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/station_coordinate_linkage.csv",
+      "bytes": 103613,
+      "sha256": "d6aa19658b7c85ac1d9c224041d15baefceafcf15a8d784efdff0bdbdd2bfd26"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/test_daily_comparison.png",
+      "bytes": 175130,
+      "sha256": "f27803e88f036ddaeba53c4d652ac67ef995e0f4b0227c76f54c7a5092725279"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/test_hourly_comparison.png",
+      "bytes": 109788,
+      "sha256": "50a2d51d48d4b5f9b7430c4c515066271bca60bf52e5f95077d00b597bbcd86d"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/test_monthly_metrics.csv",
+      "bytes": 209,
+      "sha256": "7b9ddbb8eb7d4018f606e0d743633b669a44b923967c5365c3e9eb28fb12b207"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/test_observed_predicted.png",
+      "bytes": 152538,
+      "sha256": "9f0fd7bd44041c9a98682b807eed89ed7565563d6fb50cbc8d18032233abc820"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/test_predictions.csv.gz",
+      "bytes": 20213928,
+      "sha256": "e11bd169ebe2687d931e5b9d5f3fdadd82d945620b507ed777d774b5c472fc06"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/test_predictions.npz",
+      "bytes": 10124163,
+      "sha256": "73d44b6852ed27b728d619314ec6234e98270f340e3fabe5f16c347620fd92e9"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/test_station_metrics.csv",
+      "bytes": 41607,
+      "sha256": "52d25e42867c7aede51374f33c5c81fd823fa24b107326fbd7a508e2a996ba10"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/train_fusion_model.py",
+      "bytes": 5753,
+      "sha256": "76673d8791602ebcee4a873321b91a6122dc83483e42eab22ba32af787a37eed"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/validation_curve.png",
+      "bytes": 44854,
+      "sha256": "40fd18cff87007dc12d6db9183a05b24f76f9c3911ec5dc4dfffeab16433d603"
+    },
+    {
+      "path": "results/NO2_LightGBM_2020_fusion/verification.json",
+      "bytes": 615,
+      "sha256": "dc6ab3ee7cc634cee6beec11a07383680cbcd6b7df59b642591b37c7277d226c"
+    }
+  ],
+  "excluded": [
+    "raw observation downloads",
+    "API credentials",
+    "training_arrays.npz",
+    "urban_no2_2020_fusion_master.parquet"
+  ]
+}

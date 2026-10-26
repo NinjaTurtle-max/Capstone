@@ -1,0 +1,4 @@
+example,station_id,source_time_label_kst,observed_ppb,prediction_ppb,base_value_ppb,image
+highest_observed,131142,2020111310,142.0,37.26360063014581,14.489712606230556,local_highest_observed.png
+largest_absolute_error,131142,2020111310,142.0,37.26360063014581,14.489712606230556,local_largest_absolute_error.png
+median_observed,735381,2020112622,17.0,15.541138708097904,14.489712606230556,local_median_observed.png
