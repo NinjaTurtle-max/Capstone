@@ -1,0 +1,7 @@
+# Mac 검증 환경 (2026-09-30): python 3.10.20, numpy 1.24.3, pandas 2.3.3, pyarrow 23.0.1, netCDF4 1.7.4, xarray 2025.6.1
+# 버전이 달라도 selftest.py 가 통과하면 같은 결과로 본다.
+numpy>=1.24
+pandas>=2.0
+pyarrow>=15
+netCDF4>=1.6
+xarray>=2023.1

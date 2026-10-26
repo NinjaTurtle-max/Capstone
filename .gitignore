@@ -1,0 +1,17 @@
+# 대용량 자료 — 커밋 금지 (CLAUDE.md 규칙 4)
+data/
+__pycache__/
+*.tmp
+dist/
+
+# 원본 관측 자료(에어코리아 xlsx·zip 2.9GB)·인증키 — 공개 저장소이므로 폴더째 제외
+/기상, 지점 관측/
+
+# 인증 정보 — 위치와 무관하게 커밋 금지
+api_key.txt
+.cdsapirc
+
+# OS·도구 부산물
+.DS_Store
+.ruff_cache/
+*.lnk
